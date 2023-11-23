@@ -9,7 +9,7 @@ The most interesting topic covered in my domain this quarter is the inner workin
 
 These are some questions I investigated to better understand diffusion models:
 - If you diffuse an oval-shaped cluster so it becomes a circular cluster, what path does each data point take? Do the points move at different speeds or the same speed? 
-- What if the dataset has two clusters or has a concentration in a lower dimension (e.g. data clustered along the axes)?
+- If the dataset has two clusters, will each data point return to its original cluster or the nearest one?
 - If you fix a point in the noise, will that point end up at different final locations every time you run? What will the distribution of final results look like?
 - If we set time_steps = HUGE number, would it make the reverse process a lot harder?
 
